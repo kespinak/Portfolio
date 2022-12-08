@@ -9,8 +9,18 @@ const Navbar = () => {
   const [hamburgerClick, setHambugerClick] = useState(false);
   const handleHamburgerClick = () => setHambugerClick(!hamburgerClick);
 
+  const [headerColor, setHeaderColor] = useState(false);
+  const changeHeaderColor = () => {
+    if (window.scrollY >= 100) {
+      setHeaderColor(true);
+    } else {
+      setHeaderColor(false);
+    }
+  };
+  window.addEventListener('scroll', changeHeaderColor);
+
   return (
-    <div className="header">
+    <div className={headerColor ? 'header header-bg' : 'header'}>
       <Link to="/">
         <h1> Kevin Espina </h1>
       </Link>
