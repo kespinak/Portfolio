@@ -1,13 +1,54 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* NOTE THIS IS FROM MOHIT COLORING BOOK 34:25 */
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+
+h1,
+h4,
+p, 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn { /* DIFFERENT FROM 33:02 */
+  background: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-light { /* DIFFERENT FROM 33:02 */
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba (255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* FRPM MOHIT */
+/* body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+} */
