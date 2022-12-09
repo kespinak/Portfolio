@@ -1,0 +1,12 @@
+.tech-icons {
+  max-width: 50px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 40px;
+
+  background-color: transparent;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, .459);
+  padding: 1rem 1rem;
+
+}

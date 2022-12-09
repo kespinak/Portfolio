@@ -1,5 +1,8 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
+import aboutBG from '../assets/about-bg.png';
+import './HomePart2Styles.css';
+import About from '../routes/About';
 
 const HomePart2 = () => {
   return (
@@ -39,6 +42,16 @@ const HomePart2 = () => {
             </p>
           </Col>
         </Row>
+        <Row>
+          <div className='right' >
+            <div className='img-container'>
+              <img className='aboutImage' src={aboutBG} alt='aboutBackground' />
+            </div>
+          </div>
+        </Row>
+
+        <About />
+
       </Container>
     </div>
   )

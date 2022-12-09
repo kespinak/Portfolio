@@ -30,19 +30,6 @@ const AboutContent = () => {
           </div>
         </div>
 
-        <div className='bottom' >
-          <h1> My Skills</h1>
-            <p>Here are a few technologies I've been working with recently:</p>
-            <ul>
-              <li>JavaScript (ES6+)</li>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>PostgreSQL</li>
-              <li>HTML & CSS</li>
-            </ul>
-        </div>
-
       </div>
     </>
   )
