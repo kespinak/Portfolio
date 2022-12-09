@@ -1,10 +1,10 @@
 .project-heading {
   text-align: center;
-  padding: 8rem 0 0rem 0;
+  padding: 8rem 0 0.9rem 0;
 }
 p {
   text-align: center;
-  padding: 1.1rem 0 4rem 0;
+  /* padding: 1.1rem 0 4rem 0; */
 }
 strong { /* *might need to fix this string tag (makes "WORKS" PURPLE) */
   color: #c770f0;
@@ -17,6 +17,7 @@ strong { /* *might need to fix this string tag (makes "WORKS" PURPLE) */
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   padding-bottom: 5rem;
+  padding-top: 4rem;
 }
 
 .project-card {
@@ -42,19 +43,19 @@ strong { /* *might need to fix this string tag (makes "WORKS" PURPLE) */
   text-align: center; /* *is this better left? */
 }
 
-.taskify-description {
+.project-description {
   padding: 1rem;
   font-size: 1.1rem;
   text-align: justify;
 }
 
-.taskify-btn {
+.project-btn {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
 }
 
-.taskify-btn .btn {
+.project-btn .btn {
   padding: 0.5rem 1rem;
 }
 
