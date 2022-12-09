@@ -1,0 +1,66 @@
+/* * THE NAVE BAR DOESNT TRANSITION SMOOTHLY WHEN YOU SCROLL */
+
+.about {
+  /* margin: 3rem 0; */ /* * IF THIS IS ON, THEN THE NAV BAR BREAKS */
+  /* margin-top: 3rem; */
+  padding-top: 10rem; /* ? I ADDED THIS FOR PADDING BETWEEN THE NAV BAR AND THE ABOUT CONTENT */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .left {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+.about .left p {
+  text-align: left;
+}
+
+.aboutImage {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #ccc;
+}
+
+/* .right .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+} */
+
+/* .right .img {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #ccc;
+} */
+
+/* .about .left p {
+  margin: 1.2rem 0;
+}
+
+.about .right {
+  max-width: 700px;
+} */
+
+/* .right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 1140px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+} */
+
+/* .right .img {
+  width: 50px; 
+  max-width: 90%;
+  border: 1px solid #ccc;
+} */

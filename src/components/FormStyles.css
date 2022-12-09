@@ -1,0 +1,33 @@
+label {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 4rem 1rem;
+  max-width: 600px;
+}
+
+form input, form textarea, select {
+  padding: 10px 18px;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color:rgba(255, 255, 255, 0.1);
+  color: #fff
+}
+
+option {
+  background-color: #2f2a3c;
+  border-radius: 10px; /* *NOT SURE HOW TO CHANGE THE BORDER RADIUS OF THE DROP DOWN MENU??? */
+}
+/* *NOT SURE HOW TO CHANGE THE BORDER RADIUS OF THE DROP DOWN MENU??? */
+/* .selectBox{
+  border-radius:4px;
+  border:1px solid #AAAAAA;
+} */

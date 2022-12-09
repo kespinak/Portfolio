@@ -1,9 +1,5 @@
 /* * IF YOU SPAM THE HAMBURGER, THE COLORING WILL CHANGE BLUE FOR SOME REASON... */
 
-h1 {
-  color: #c770f0;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,6 +10,10 @@ h1 {
   height: 90px;
   z-index: 10;
 }
+h1 {
+  color: #c770f0;
+}
+
 
 /* ? maybe I should make this color darker?...creating a new className tag so that the header color will blend when we scroll down */
 /* * scrolling transition isnt fluid (try scrolling on projects page) */
