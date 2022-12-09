@@ -12,7 +12,7 @@ const ProjectCardData = [
     title: "Taskify",
     imgsrc: Project1taskify,
     alt: "taskifyImage",
-    description: "Taskify is a task management application that allows users to create, edit, and delete tasks.",
+    description: "Used for increase the productivity and tracks your progress towards the your project or goal. It has a workspace features that means multiple people collobrate in one project. It has a features like create boards , add container in board and add task in container. Board member also add comment in perticular task and assign flag over that.",
     techStack: "TechStack: React, Redux, Nodejs, Express, MongoDB, and Firebase.",
     viewProj: "https://www.youtube.com/watch?v=0h2b4ftbZcU",
     viewRepo: "https://github.com/kespinak/Bug-Tracker"
@@ -22,7 +22,7 @@ const ProjectCardData = [
     title: "The Ultimate Portfolio",
     alt: "portfolioImage",
     imgsrc: Project2portfolio,
-    description: "My personal portfolio KevinEspina.tech which features some of my github projects as well as my resume and technical skills.",
+    description: "My personal portfolio KevinEspina.tech which features some of my github projects as well as my resume and technical skills. Please explore my portfolio and feel free to contact me if you have any questions and/or job inquiries. In addition, please add me on linkedin and follow me on github. I enjoy meeting new people and learning new things.",
     techStack: "TechStack: React, Nodejs, Express, CSS, and Vercel.",
     viewProj: "https://www.youtube.com/watch?v=0h2b4ftbZcU",
     viewRepo: "https://github.com/kespinak/Bug-Tracker"
@@ -52,7 +52,7 @@ const ProjectCardData = [
     title: "News Eater",
     imgsrc: Project5newsEater,
     alt: "newsEaterImage",
-    description: "News Eater is a live news feed application that allows users to stay up-to-date with the latest news from around the world. The app features a customizable feed, allowing users to select the sources and topics they are most interested in, as well as the ability to save articles for offline reading. The user interface is clean and intuitive, making it easy for users to quickly browse and read the latest news stories. With News Eater, users can stay informed on the go and never miss a breaking news story.",
+    description: "News Eater is a live news feed application that allows users to stay up-to-date with the latest news from around the world. The app features a customizable feed, allowing users to select the sources and topics they are most interested in, as well as the ability to save articles for offline reading. With News Eater, users can stay informed on the go and never miss a breaking news story.",
     techStack: "TechStack: React, Redux, Nodejs, Express, CSS, and Vercel.",
     viewProj: "https://www.youtube.com/watch?v=0h2b4ftbZcU",
     viewRepo: "https://github.com/kespinak/Bug-Tracker"
@@ -62,7 +62,7 @@ const ProjectCardData = [
     title: "Hobby Friendly",
     imgsrc: Project6hobbyFriendly,
     alt: "hobbyFriendlyImage",
-    description: "Hobby Friendly is an application that connects people with similar interests and hobbies. Whether you enjoy hiking, painting, or knitting, Hobby makes it easy to find and connect with others who share your passion. The app features a user-friendly interface that allows you to search for hobbies and activities in your area, and to connect with other users who share your interests. With Hobby, you can easily find and connect with like-minded people, and expand your social circle with people who share your interests and passions. Whether you're looking to try a new hobby, or just want to meet others who enjoy the same activities as you, Hobby is the perfect app for finding new friends who share your hobby.",
+    description: "Hobby Friendly is an application for everyone! Whether you enjoy hiking, painting, or knitting, Hobby makes it easy to find and connect with others in your area and who share your interests. Hobby is the perfect app to help expand your social circle and for finding new friends who share your hobby.",
     techStack: "TechStack: React, Redux, Nodejs, Express, CSS, and Vercel.",
     viewProj: "https://www.youtube.com/watch?v=0h2b4ftbZcU",
     viewRepo: "https://github.com/kespinak/Bug-Tracker"
