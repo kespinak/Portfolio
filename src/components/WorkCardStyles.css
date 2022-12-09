@@ -1,6 +1,13 @@
 .project-heading {
   text-align: center;
-  padding: 4rem 0 2rem 0;
+  padding: 8rem 0 0rem 0;
+}
+p {
+  text-align: center;
+  padding: 1.1rem 0 4rem 0;
+}
+strong { /* *might need to fix this string tag (makes "WORKS" PURPLE) */
+  color: #c770f0;
 }
 
 .project-container {
@@ -13,8 +20,13 @@
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: transparent;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, .459);
   padding: 1.2rem 1rem;
+}
+.project-card:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
 }
 
 .project-card img {
@@ -26,6 +38,8 @@
 .project-title {
   color: #fff;
   padding: 1rem 0;
+  font-size: 1.5rem;
+  text-align: center; /* *is this better left? */
 }
 
 .taskify-description {
@@ -36,7 +50,7 @@
 
 .taskify-btn {
   display: flex;
-  justify-content: speace-between;
+  justify-content: space-between;
   padding: 0.5rem 0;
 }
 
