@@ -24,31 +24,33 @@ ul {
 }
 
 .btn { /* DIFFERENT FROM 33:02 */
+  /* padding: 0.5rem 1rem; */ /* * THIS IS WHAT COPILOT RECOMMENDS*/
+  padding: 12px 32px;
+  border-radius: 5px;
   background: #fff;
   color: #000;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  border: none;
+  border: 1px solid #fff;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-.btn-light { /* DIFFERENT FROM 33:02 */
+.btn-light { 
+  /* background: rgba(255, 255, 255, 0.2); */
   background: transparent;
   color: #fff;
 }
 
+/* ? UNCOMMENT THIS TO HAVE DIFFERENT HOVER EFFECTS ON THE HOME BUTTONS
 .btn:hover {
-  background: rgba (255, 255, 255, 0.2);
+  background: transparent;
   color: #fff;
-  transition: 0.3s;
 }
-
-/* FRPM MOHIT */
-/* body {
-  margin: 0;
-  font-family: "Raleway", serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+.btn-light:hover {
+  background: #fff;
+  color: #000;
 } */
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}

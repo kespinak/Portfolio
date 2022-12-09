@@ -3,6 +3,7 @@
 .mask {
   width: 100%;
   height: 100vh;
+  position: relative;
 }
 
 .img-fluid {
@@ -23,8 +24,6 @@
   height: 100%;
   /* * ERROR AROUND 1:00:00 --> THE NAVBAR COLOR IS GRAY + UNCLICKABLE & HAMBURGER DISAPPEARED*/
   background-color: #000; 
-  /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); */
-  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .HomeBg {

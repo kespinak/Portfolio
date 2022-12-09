@@ -1,3 +1,5 @@
+/* * IF YOU SPAM THE HAMBURGER, THE COLORING WILL CHANGE BLUE FOR SOME REASON... */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,9 +11,12 @@
   z-index: 10;
 }
 
-/* creating a new className tag so that the header color will blend when we scroll down */
+/* ? maybe I should make this color darker?...creating a new className tag so that the header color will blend when we scroll down */
 .header-bg {
-  background-color: rgba(0, 0, 0, 0.85);
+  /* background-color: rgba(0, 0, 0, 0.85); */
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  /* background-color: #1d1d32; */
+  background-color: #191328;
   tansitions: all 0.5s ease;
 }
 
@@ -44,6 +49,7 @@
     top: 0;
     left: -100%;
     z-index: -3;
+    transition: 0.3s;
   }
   .nav-menu.active {
     left: 0;
@@ -57,7 +63,7 @@
     font-size: 2rem;
   }
 
-  .ham-burger {
+  .hamburger {
     display: initial;
   }
 }

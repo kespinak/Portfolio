@@ -19,7 +19,7 @@ const HomeBackground = () => {
       </div>
       <div className='content'>
         <p>Hi, I'm a FullStack Developer</p>
-        <p>React Developer</p>
+        <h1>React Developer</h1>
         <div>
           <Link to='/project' className='btn'>Projects </Link>
           <Link to='/contact' className='btn btn-light'>Contact </Link>

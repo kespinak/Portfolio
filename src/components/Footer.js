@@ -1,12 +1,19 @@
 import React from 'react'
 import './FooterStyles.css';
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { 
+  FaHome, 
+  FaPhone, 
+  FaMailBulk, 
+  FaFacebookF, 
+  FaTwitter, 
+  FaLinkedinIn 
+} from 'react-icons/fa';
 
 function Footer() {
   return (
     <div className='footer'>
       <div className='footer-container'>
-        <div className='left'/>
+        <div className='left'>
           <div className='location'>
             <FaHome size={20} style={{color: '#fff', marginRight: '2rem'}}/>
             <div>
@@ -26,16 +33,17 @@ function Footer() {
               info@gmail.com
             </h4>
           </div>
-
-          <div className='right' >
-            <h4>About the company</h4>
-            <p> This is me, Kevin Espina. I enjoy discussing new projects and design challenges. </p>
-            <div className='social'>
-              <FaFacebookF size={30} style={{color: '#fff', marginRight: '1rem'}}/>
-              <FaTwitter size={30} style={{color: '#fff', marginRight: '1rem'}}/>
-              <FaLinkedinIn size={30} style={{color: '#fff', marginRight: '1rem'}}/>
-            </div>
+        </div>
+        
+        <div className='right' >
+          <h4>About the company</h4>
+          <p> This is me, Kevin Espina. I enjoy discussing new projects and design challenges. </p>
+          <div className='social'>
+            <FaFacebookF size={30} style={{color: '#fff', marginRight: '1rem'}}/>
+            <FaTwitter size={30} style={{color: '#fff', marginRight: '1rem'}}/>
+            <FaLinkedinIn size={30} style={{color: '#fff', marginRight: '1rem'}}/>
           </div>
+        </div>
       </div>
     </div>
   )

@@ -1,7 +1,8 @@
 .footer {
   width: 100%;
   padding: 6rem 0;
-  background-color: rbga(19, 19, 19, 0.8);
+  /* background-color: rbga(19, 19, 19, 0.8); */
+  background-color: #191328;
 }
 
 .footer-container {

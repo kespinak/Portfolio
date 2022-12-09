@@ -38,6 +38,9 @@ const Navbar = () => {
           <Link to="/resume">Resume</Link>	
         </li>  
         <li>
+          <Link to='https://www.google.com'> Store </Link>
+        </li>
+        <li>
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
