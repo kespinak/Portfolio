@@ -20,16 +20,14 @@ import imgHomeBg from '../assets/home-bg.jpg';
 const HomeSkillSet = () => {
   return (
     <div className='HomeBg'>
-
-      <div className='mask'>
+      {/* <div className='mask'>
         <img className='img-fluid' src={imgHomeBg} alt="homePic" />
-      </div>
+      </div> */}
 
       <div className='content'>
         <Container>
-
           <h1 className='heading'></h1>
-
+          
           <Row style={{justifyContent: 'center', paddingBottom: '50px'}}>
             <Col xs={4} md={2} className="tech-icons">
               <CgCPlusPlus />

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import NewFooter from '../components/NewFooter'
 import Work from '../components/Work';
 
 
@@ -12,7 +13,8 @@ const Projects = () => {
       <div heading='PROJECTS'>
         <h1 className="project-heading"> </h1>
       </div>
-      <Footer />
+      <NewFooter />
+      {/* <Footer /> */}
     </div>
   )
 }

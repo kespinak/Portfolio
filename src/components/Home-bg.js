@@ -19,7 +19,7 @@ const HomeBackground = () => {
       <div className='content'>
         <Container>
           <Row>
-            <h1 className='heading'>
+            <h1 style={{paddingBottom: 15}} className='heading'>
               Hi There!{' '}
               <span className='wave' role='img' aria-labelledby='wave'>
                 👋🏻

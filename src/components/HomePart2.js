@@ -14,7 +14,7 @@ const HomePart2 = () => {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className='home-about-body'> 
-              My favorite part to programming is being able to learn something new every day. I embrace the challenges that come with it. and love to push my limits. 
+              My favorite part to programming is being able to learn something new every day as well as problem solving.  
               <br />
               <br />I am fluent in classics like
               <i>

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HomeBackground from '../components/Home-bg';
 import Footer from '../components/Footer';
+import NewFooter from '../components/NewFooter'
 
 import HomePart2 from '../components/HomePart2';
 import HomeBanner from '../components/HomeBanner';
@@ -13,10 +14,17 @@ const Home = () => {
     <div>
       <Navbar />
       <HomeBanner /> 
+      {/* <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> */}
+      {/* <HomeSkillSet /> */}
       {/* <HomeBackground /> */}
       {/* <HomePart2 /> */}
-      {/* <HomeSkillSet /> */}
-      <Footer />
+      <NewFooter />
+      {/* <Footer /> */}
     </div>
   )
 }

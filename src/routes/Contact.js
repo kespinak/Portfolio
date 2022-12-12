@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import NewFooter from '../components/NewFooter'
 import Form from '../components/Form'
 
 const Contact = () => {
@@ -8,7 +9,8 @@ const Contact = () => {
     <div>
       <Navbar />
       <Form />
-      <Footer />
+      <NewFooter />
+      {/* <Footer /> */}
     </div>
   )
 }
